@@ -1,3 +1,5 @@
+Creating a reddit clone to learn Ruby on Rails. Following Mackenziechild's tutorials
+
 == README
 
 This README would normally document whatever steps are necessary to get the
