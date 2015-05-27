@@ -1,4 +1,4 @@
-Creating a reddit clone to learn Ruby on Rails. Following Mackenziechild's tutorials
+== Creating a reddit clone to learn Ruby on Rails. Following Mackenziechild's tutorials
 
 == README
 
