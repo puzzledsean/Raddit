@@ -7,6 +7,11 @@ class LinksController < ApplicationController
     @links = Link.all
   end
 
+  def authorized_user
+    @link = current_user.links.find_by(id: params[:id])
+    redirect_to links_path, notice: "Not authorized to edit this link" if @link.nil?
+  end 
+
   # GET /links/1
   # GET /links/1.json
   def show
